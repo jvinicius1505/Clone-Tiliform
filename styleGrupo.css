@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body{
+    margin: 0;
+    font-family: lato;
+    overflow-x: hidden;
+}
+
+#cabecalho{
+    display: block;
+    color: white;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 119, 255);
+}
+
+.titulo > h1{   
+    margin-left: 100px; 
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.redes{   
+    display: flex; 
+    column-gap: 10px;
+    padding:  5px 0;
+    margin: auto 20px;
+}
+
+.redes > h3{
+    cursor: pointer;
+}
+
+#pesquisa{
+    display: block;
+    margin: auto;
+    height: 3.3em;
+    width: 40%;
+    border: none;
+    border-radius: 4px;
+}
+
+.titulo > button{
+    font-size: 1.2em;
+    color: white;
+    font-family: lato;
+    font-weight: 1000;
+    display: block;
+    margin: auto;
+    background-color: rgb(43, 152, 255);
+    border: none;
+    cursor: pointer;
+    height: 2em;
+    width: 10em;
+}
+
+button:hover{
+    background-color: rgb(72, 162, 247);
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+.navbar{    
+    height: 100%;
+    font-size: 1.1em;
+    font-family: lato;
+    font-weight: bold;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.nav{
+    padding: 15px;
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.nav > a{
+    color: gray;
+    text-decoration: none;
+}
+
+.nav:hover{
+    background-color: rgb(34, 148, 255);
+    -webkit-transition: 0.25s ease-in;
+    -moz-transition: 0.25s ease-in;
+    -o-transition: 0.25s ease-in;
+    transition: 0.25s ease-in;
+}
+
+#imagem{
+    background-image: url("https://cdn.securebox.com.br/imgcache/586/915x/custom/586/uploads/banner/banner_58cbe32c87a68.jpg.webp");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter:brightness(70%);
+    padding: 90px;
+    text-align: center;
+}
+
+.grupo{
+    color: #FFFFFF;
+    font-size: 56px;
+    line-height: normal;
+    font-weight: 800;
+    padding-bottom: 0;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 80%), 0 0 1px #ffffff;
+    text-transform: uppercase;
+}
+
+#historia{
+    margin-top: 50px;
+    padding: 0 10%;
+    margin-bottom: 50px;
+}
+
+hr{
+    margin: 0 10%;
+}
+
+#politica{
+    margin-top: 50px;
+    padding: 0 10%;
+    margin-bottom: 20px;
+}
+
+.letras{
+    display: grid;
+    grid-template-areas: 
+    "strong span";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+}
+
+#politica span{
+    grid-area: span;
+    padding-bottom: 4px;
+}
+
+#politica strong{
+    grid-area: strong;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: cyan;
+    font-weight: 900;
+}
+
+#meioAmbiente{
+    background-image: url("https://static.significados.com.br/foto/energia-eolica-fb.jpg");    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 70px;
+}
+
+.verde{
+    margin-left: 50%;
+    text-align: center;
+    color : white;
+    width: 50%;
+    background: rgba(75, 138, 13, 0.856);
+}
+
+.verde p, h2{
+    padding: 10px 20px;
+    font-weight: 400;
+}
+
+#final{
+    font-weight: 1000;
+    background: rgb(0, 119, 255);
+    color: white;
+    padding: 20px 40px;
+    letter-spacing: 1px;
+}
+
+#final h1{
+    margin-left: 62%;
+    margin-top: 10px;
+    position: absolute;
+    font-weight: 1000;
+}
+
+#final h4{
+    margin-left: 62%;
+    margin-top: 1px;
+    position: absolute;
+    font-weight: 1000;
+}
+
+#final p{
+    cursor: pointer;
+}
+
+.resumo{
+    display: flex;
+    column-gap: 15px;
+    margin-left: 50px;
+}
+
+#final p:hover{
+    color: black;
+}
+
+.contato{    
+    display: flex;
+    margin-left: 50px;
+}
+
+.contato p:nth-child(2){
+    font-size: 1.2em;
+}
+
+footer{
+    display: flex;
+    column-gap: 50%;
+}

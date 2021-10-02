@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleContato.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="cabecalho">
+        <div class="titulo">
+            <h1 class="nomeEmpresa">Tiliform</h1>
+
+            <div class="redes">
+            <h3>Face</h3>
+            <h3>Linkedin</h3>
+            <h3>Insta</h3>
+            </div>
+
+            <input type="search" name="pesquisa" id="pesquisa" placeholder="O que você procura?">
+
+            <button type="submit">Fazer Orçamento</button>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li class="nav">
+                    <a href="/index.html">HOME</a> </li>
+                <li class="nav">
+                    <a href="/grupo.html">O GRUPO</a></li>
+                <li class="nav">
+                    <a href="/resto.html">PRODUTOS</a></li>
+                <li class="nav">
+                    <a href="/resto.html">BLOG</a></li>
+                <li class="nav">
+                    <a href="/resto.html">CLIENTES</a></li>
+                <li class="nav">
+                    <a href="/trabalhe.html">TRABALHE CONOSCO</a></li>
+                <li class="nav">
+                    <a href="/resto.html">F.A.Q</a></li>
+                <li class="nav">
+                    <a href="/contato.html">CONTATO</a></li>
+            </ul>
+            
+        </div>
+    </div>
+
+    <div id="fale">
+        <hr>
+        <h1>Fale conosco</h1>
+        <hr>
+    </div>
+
+    <hr>
+
+    <div id="grade">
+        <div id="cadastro">
+            <div class="aviso">
+                <p>Dúvidas ou sugestões, entre em contato com a gente. Basta colocar seu nome, email, telefone e o conteúdo da mensagem. <button id="x">X</button></p>
+            </div>
+    
+            <p>Nome <span>*</span></p>
+            <input type="text" name="" id="iptNome" required>
+            <p>Email <span>*</span></p>
+            <input type="email" name="" id="iptEmail" required>
+            <p>Telefone <span>*</span></p>
+            <input type="number" name="" id="iptTelefone">
+            <p>Mensagem <span>*</span></p>
+            <textarea></textarea>
+    
+            <div id="botao">
+                <input type="submit" value="Enviar mensagem" class="botao" onclick="enviar()">
+            </div>
+        </div>
+
+        <div id="infos">
+            <h3>Informações de contato:</h3>
+            <h2>Grupo Tiliform</h2>
+            <p>(14) 2106-8595 </p> 
+            <p>Av. Rodrigues Alves, 36-16 - Vila Coralina - Bauru - SP </p> 
+            <p>Av. Antenor Almeida, 2-50 - Jardim Colonial - Bauru - SP </p>
+
+            <hr>
+
+            <p class="email">marketing@tiliform.com.br</p>
+
+            <hr>
+
+            <strong class="strongs">Rótulos</strong>
+            <p>Av. Rodrigues Alves, 36-16 - Vila Coralina - Bauru - SP - 17030-000 - marketing@tiliform.com.br / <span class="numeros">0800-702-0034</span> Seg. à Sex. 08:00 às 17:48</p>
+            <br>
+            <strong class="strongs">PROFORM - Bobinas e Etiquetas</strong>
+            <p>Av. Rodrigues Alves, 36-16 - Vila Coralina - Bauru - SP - 17030-000 - marketing@tiliform.com.br /<span class="numeros">0800-702-0035</span> / Seg. à Sex. 08:00 às 17:48</p>
+            <br>
+            <strong class="strongs">Embalagens Flexíveis</strong>
+            <p>Av. Antenor Almeida, 2-50 - Jardim Colonial - Bauru - SP -17047-590 - marketing@tiliform.com.br / (14) 2109-3981 / Seg. à Sex. 08:00 às 18:00</p>
+
+        </div>
+    </div>
+
+    <div id="final">
+        <h4>GRUPO</h4>
+        <h1>Tiliform</h1>
+        <div class="resumo">
+            <p>HOME</p>
+            <p>O GRUPO</p>
+            <p>PRODUTOS</p>
+            <p>BLOG</p>
+            <p>CLIENTES</p>
+            <p>TRABALHE CONOSCO</p>
+            <p>F.A.Q</p>
+            <p>CONTATO</p>
+        </div>
+        <div class="contato">
+            <p> (14) 2106-8595 <br>
+                AV. RODRIGUES ALVES, 36-16 - VILA CORALINA - BAURU - SP <br>
+                AV. ANTENOR ALMEIDA, 2-50 - JARDIM COLONIAL - BAURU - SP <br>
+            </p>
+            <p>marketing@tiliform.com.br</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Tiliform © 2021 - Todos os direitos reservados</p>
+        <p>Essa versão foi feita por João Vinícius</p>
+    </footer>
+
+    <div id="invisivel">
+        <div class="caixa">
+            <h1>Sugestão enviada!</h1>
+            <button id="fecharPop" onclick="fecharPop()">X</button>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

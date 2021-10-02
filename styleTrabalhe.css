@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: lato;
+    overflow-x: hidden;
+}
+
+#cabecalho{
+    display: block;
+    color: white;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 119, 255);
+}
+
+.titulo > h1{   
+    margin-left: 100px; 
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.redes{   
+    display: flex; 
+    column-gap: 10px;
+    padding:  5px 0;
+    margin: auto 20px;
+}
+
+.redes > h3{
+    cursor: pointer;
+}
+
+#pesquisa{
+    display: block;
+    margin: auto;
+    height: 3.3em;
+    width: 40%;
+    border: none;
+    border-radius: 4px;
+}
+
+.titulo > button{
+    font-size: 1.2em;
+    color: white;
+    font-family: lato;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    background-color: rgb(43, 152, 255);
+    border: none;
+    cursor: pointer;
+    height: 2em;
+    width: 10em;
+}
+
+button:hover{
+    background-color: rgb(72, 162, 247);
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+.navbar{
+    height: 100%;
+    font-size: 1.1em;
+    font-family: lato;
+    font-weight: bold;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.nav{
+    padding: 15px;
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.nav > a{
+    color: gray;
+    text-decoration: none;
+}
+
+.nav:hover{
+    background-color: rgb(34, 148, 255);
+    -webkit-transition: 0.25s ease-in;
+    -moz-transition: 0.25s ease-in;
+    -o-transition: 0.25s ease-in;
+    transition: 0.25s ease-in;
+}
+
+#trabalhe{
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+#trabalhe hr{
+    margin-top: 3%;
+    width: 10%;
+    height: 0;
+}
+
+#trabalhe h1{
+    color: rgb(90, 90, 90);
+    font-weight: 900;
+    text-align: center;
+}
+
+hr{
+    width: 80%;
+}
+
+#cadastro{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.aviso{
+    border-left: 7px rgb(90, 90, 90) solid;
+    background-color: rgb(157, 230, 230);
+    font-weight: 300;
+    width: 100%;
+    padding: 2px 0 2px 15px;
+}
+
+.aviso button{
+    float: right;
+    cursor: pointer;
+    font-weight: 900;
+    color: gray;
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.aviso button:hover{
+    color: black
+}
+
+#cadastro > p{
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+#cadastro > input{
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 2em;
+}
+
+textarea{
+    width: 100%;
+    height: 5em;
+}
+
+#cadastro span{
+    color: red;
+    font-weight: 700;
+}
+
+.botao{
+    background-color: rgb(47, 204, 60);
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 10em;
+    height: 2.5em;
+    color: white;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background: rgb(0, 204, 17)
+}
+
+#final{
+    font-weight: 1000;
+    background: rgb(0, 119, 255);
+    color: white;
+    padding: 20px 40px;
+    letter-spacing: 1px;
+}
+
+#final h1{
+    margin-left: 62%;
+    margin-top: 10px;
+    position: absolute;
+    font-weight: 1000;
+}
+
+#final h4{
+    margin-left: 62%;
+    margin-top: 1px;
+    position: absolute;
+    font-weight: 1000;
+}
+
+#final p{
+    cursor: pointer;
+}
+
+.resumo{
+    display: flex;
+    column-gap: 15px;
+    margin-left: 50px;
+}
+
+#final p:hover{
+    color: black;
+}
+
+.contato{    
+    display: flex;
+    margin-left: 50px;
+}
+
+.contato p:nth-child(2){
+    font-size: 1.2em;
+}
+
+footer{
+    display: flex;
+    column-gap: 50%;
+}
+
+#invisivel{
+    display: none;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+    top: 0px;
+    left:0px;    
+    background: rgba(0, 0, 0, 0.562);    
+}
+
+#fecharPop{
+    border: none;
+    border-radius: 50%;
+    background: red;
+    width: 35px;
+    height: 35px;
+    color: white;
+    position: absolute;
+    top:-15px;
+    right: -15px;
+    cursor: pointer;
+}
+
+#invisivel div{
+    position: relative;
+    background: rgb(214, 214, 214);
+    display: block;
+    margin: auto;
+}

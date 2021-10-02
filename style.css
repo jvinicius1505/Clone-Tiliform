@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: lato;
+    overflow-x: hidden;
+}
+
+#cabecalho{
+    display: block;
+    color: white;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 119, 255);
+}
+
+.titulo > h1{   
+    margin-left: 100px; 
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.redes{   
+    display: flex; 
+    column-gap: 10px;
+    padding:  5px 0;
+    margin: auto 20px;
+}
+
+.redes > h3{
+    cursor: pointer;
+}
+
+#pesquisa{
+    display: block;
+    margin: auto;
+    height: 3.3em;
+    width: 40%;
+    border: none;
+    border-radius: 4px;
+}
+
+.titulo > button{
+    font-size: 1.2em;
+    color: white;
+    font-family: lato;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    background-color: rgb(43, 152, 255);
+    border: none;
+    cursor: pointer;
+    height: 2em;
+    width: 10em;
+}
+
+button:hover{
+    background-color: rgb(72, 162, 247);
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+.navbar{
+    height: 100%;
+    font-size: 1.1em;
+    font-family: lato;
+    font-weight: bold;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.nav{
+    padding: 15px;
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.nav > a{
+    color: gray;
+    text-decoration: none;
+}
+
+.nav:hover{
+    background-color: rgb(34, 148, 255);
+    -webkit-transition: 0.25s ease-in;
+    -moz-transition: 0.25s ease-in;
+    -o-transition: 0.25s ease-in;
+    transition: 0.25s ease-in;
+}
+
+#fazemos{
+    display: flex;
+    margin: 1.5% 0;
+}
+
+hr{
+    margin-top: 2.5%;
+    width: 30%;
+    height: 0;
+}
+
+#fazemos  h1{
+    text-align: center;
+    color:black;
+    font-weight: 300;
+}
+
+#produtos{
+    width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa{
+    display: flex;
+}
+
+.produto{
+    display: block;
+    margin: 0 20px 30px;
+    border-right: solid purple 1px;
+    border-bottom: solid purple 1px;
+    width: 220px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.produto img{
+    width:100%;
+}
+
+.produto:hover{
+    box-shadow: 1px 2px 2px 1px;
+}
+
+.produto img:hover{
+    transform: rotate(5deg);
+}
+
+#maisLinks{
+    display: flex;
+    background-color: rgb(207, 207, 207);
+    width: 100%;
+    padding: 50px 20px;
+}
+
+#maisLinks img{
+    max-width: 100%;
+    background-position-y:100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#maisLinks img:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+#maisLinks img:nth-child(1){
+    width: 40%;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+#maisLinks img:nth-child(2){
+    width: 40%;
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+#clientes{
+    display: flex;
+    margin: 1.5% 0;
+}
+
+#clientes  h1{
+    text-align: center;
+    color:black;
+    font-weight: 300;
+}
+
+#final{
+    font-weight: 1000;
+    background: rgb(0, 119, 255);
+    color: white;
+    padding: 20px 40px;
+    letter-spacing: 1px;
+}
+
+#final h1{
+    margin-left: 62%;
+    margin-top: 10px;
+    position: absolute;
+    font-weight: 1000;
+}
+
+#final h4{
+    margin-left: 62%;
+    margin-top: 1px;
+    position: absolute;
+    font-weight: 1000;
+}
+
+#final p{
+    cursor: pointer;
+}
+
+.resumo{
+    display: flex;
+    column-gap: 15px;
+    margin-left: 50px;
+}
+
+#final p:hover{
+    color: black;
+}
+
+.contato{    
+    display: flex;
+    margin-left: 50px;
+}
+
+.contato p:nth-child(2){
+    font-size: 1.2em;
+}
+
+footer{
+    display: flex;
+    column-gap: 50%;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleTrabalhe.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <div class="titulo">
+            <h1 class="nomeEmpresa">Tiliform</h1>
+
+            <div class="redes">
+            <h3>Face</h3>
+            <h3>Linkedin</h3>
+            <h3>Insta</h3>
+            </div>
+
+            <input type="search" name="pesquisa" id="pesquisa" placeholder="O que você procura?">
+
+            <button type="submit">Fazer Orçamento</button>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li class="nav">
+                    <a href="/index.html">HOME</a> </li>
+                <li class="nav">
+                    <a href="/grupo.html">O GRUPO</a></li>
+                <li class="nav">
+                    <a href="/resto.html">PRODUTOS</a></li>
+                <li class="nav">
+                    <a href="/resto.html">BLOG</a></li>
+                <li class="nav">
+                    <a href="/resto.html">CLIENTES</a></li>
+                <li class="nav">
+                    <a href="/trabalhe.html">TRABALHE CONOSCO</a></li>
+                <li class="nav">
+                    <a href="/resto.html">F.A.Q</a></li>
+                <li class="nav">
+                    <a href="/contato.html">CONTATO</a></li>
+            </ul>
+            
+        </div>
+    </div>
+
+    <div id="trabalhe">
+        <hr>
+        <h1>Trabalhe conosco</h1>
+        <hr>
+    </div>
+
+    <hr>
+
+    <div id="cadastro">
+        <div class="aviso">
+            <p>Faça parte do nosso time! Para enviar seu currículo, basta preencher os dados abaixo: <button id="x">X</button></p>
+            
+        </div>
+
+        <p>Nome <span>*</span></p>
+        <input type="text" name="" id="iptNome" required>
+        <p>Email <span>*</span></p>
+        <input type="email" name="" id="iptEmail" required>
+        <p>Currículo</p>
+        <input type="file" name="" id="iptCurriculo">
+        <p>Mensagem</p>
+        <textarea></textarea>
+
+        <div id="botao">
+            <input type="submit" value="Enviar" class="botao" onclick="enviar()">
+        </div>
+    </div>
+
+    <div id="final">
+        <h4>GRUPO</h4>
+        <h1>Tiliform</h1>
+        <div class="resumo">
+            <p>HOME</p>
+            <p>O GRUPO</p>
+            <p>PRODUTOS</p>
+            <p>BLOG</p>
+            <p>CLIENTES</p>
+            <p>TRABALHE CONOSCO</p>
+            <p>F.A.Q</p>
+            <p>CONTATO</p>
+        </div>
+        <div class="contato">
+            <p> (14) 2106-8595 <br>
+                AV. RODRIGUES ALVES, 36-16 - VILA CORALINA - BAURU - SP <br>
+                AV. ANTENOR ALMEIDA, 2-50 - JARDIM COLONIAL - BAURU - SP <br>
+            </p>
+            <p>marketing@tiliform.com.br</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Tiliform © 2021 - Todos os direitos reservados</p>
+        <p>Essa versão foi feita por João Vinícius</p>
+    </footer>
+
+    <div id="invisivel">
+        <div class="caixa">
+            <h1>Cadastro finalizado!</h1>
+            <button id="fecharPop" onclick="fecharPop()">X</button>
+        </div>
+    </div>
+    
+</body>
+
+<script src="script.js"></script>
+</html>
