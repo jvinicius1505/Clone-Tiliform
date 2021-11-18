@@ -1,5 +1,4 @@
-# Site-Clone
-Clone de Site 'Tiliform'
+# Projeto Clone do Site 'Tiliform'
 
 <div align="center">
   <h3>Página Home:</h3>
